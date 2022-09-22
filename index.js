@@ -25,7 +25,7 @@ app.get("/vision", async (req, res, next) => {
   try {
     const { q, ak } = req.query;
     if (ak === "vision405706api") {
-      console.log(ak);
+      // console.log(ak);
       const response = await openai.createCompletion({
         model: "text-davinci-002",
         prompt: preset + q + "\n#AI: ",
