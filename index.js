@@ -38,4 +38,4 @@ app.get("/vision", async(req, res,next) => {
     res.send(response.data.choices[0].text);
 });
 
-app.listen(config.port, () => console.log(`Server is running on port ${port}`));
+app.listen(config.port, () => console.log(`Server is running on port ${config.port}`));

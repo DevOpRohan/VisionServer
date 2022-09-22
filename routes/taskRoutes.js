@@ -9,7 +9,6 @@ router.get('/task/:id', getTask);
 router.put('/updateTask/:id', updateTask);
 router.delete('/deleteTask/:id', deleteTask);
 
-router.get('/ai', ai);
 
 module.exports = {
     routes: router
